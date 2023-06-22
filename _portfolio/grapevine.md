@@ -1,7 +1,7 @@
 ---
 caption: #what displays in the portfolio grid:
   title: Grapevine Digital
-  subtitle: No-code Workflow Management & Process Orchestration Platform
+  subtitle: We highly recommend Nerion for their exceptional software development services. Their team of experienced developers are highly skilled in delivering top-notch software solutions, while maintaining clear and open communication with us, ensuring that we're up-to-date on project progress and any potential roadblocks.
   thumbnail: assets/img/portfolio/grapevine.jpg
 
 #what displays when the item is clicked:

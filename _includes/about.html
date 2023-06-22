@@ -1,5 +1,5 @@
 <!-- About -->
-<section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
+<section class="page-section" id="{{ site.data.sitetext[site.locale].about.section | default: "about" }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
@@ -11,6 +11,9 @@
       <div class="col-lg-8 mx-auto text-center">
         <div class="large text-muted">{{ site.data.sitetext[site.locale].about.body | markdownify }}</div>
       </div>
+    </div>
+    <div class="row">
+     <a class="mx-auto mt-3 btn btn-primary btn-lg text-white cursor-pointer js-scroll-trigger go-to-form-btn" href="#contactFormContainer">{{ site.data.sitetext[site.locale].about.buttonText }}</a>
     </div>
   </div>
 </section>

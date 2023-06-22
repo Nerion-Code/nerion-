@@ -12,6 +12,7 @@ a {
   color: $primary;
   &:hover {
     color: darken($primary, 10%);
+    cursor: pointer;
   }
 }
 
@@ -30,9 +31,9 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  padding: 75px 0;
   h2.section-heading {
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 0;
     margin-bottom: 15px;
   }
@@ -45,9 +46,12 @@ h6 {
     @include serif-font;
   }
 }
-@media (min-width: 768px) {
-  section {
-    padding: 150px 0;
+@media (max-width: 768px) {
+  .page-section {
+    padding: 50px 0;
+    &#about{
+      padding-top: 100px;
+    }
   }
 }
 
@@ -70,4 +74,8 @@ img::selection {
 
 img::-moz-selection {
   background: transparent;
+}
+
+.text-muted {
+  color: #585f64 !important;
 }
